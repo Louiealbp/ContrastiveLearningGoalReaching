@@ -3,8 +3,8 @@
 ## Acknowledgements:
 - [Openai Baselines](https://github.com/openai/baselines)
 - Misha Laskin CURL (https://github.com/MishaLaskin/curl)
-- Tianhong Dai HER (https://github.com/TianhongDai/hindsight-experience-replay
-  )
+- Tianhong Dai HER (https://github.com/TianhongDai/hindsight-experience-replay)
+- RLL (Professor Abbeel, Aravind Srinivas, Professor Pinto)
 ## Requirements
 - see conda_env file
 - environments require MuJoCo (see https://github.com/openai/mujoco-py) for details
@@ -18,4 +18,4 @@ See the example script in the scripts folder. Running 'bash scripts/run.sh' will
 
 ## Results
 ### Training Performance
-See the attached write-up for more details.
+See report.pdf for plots, discussion of results, future directions, and more.
