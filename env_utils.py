@@ -126,7 +126,7 @@ class GoalBasedPixelObservationsOpenAIGym(gym.Wrapper):
         self.state_based = state_based
         name = env.unwrapped.spec.id[:10]
         if name == 'FetchReach':
-            payload = torch.load('/home/aaron_putterman/hindsight-experience-replay-master/fetchreachgoals/goals3.pt')
+            payload = torch.load('/home/aaron_putterman/project1/hindsight-experience-replay-master/fetchreachgoals/goals3.pt')
             self.states = payload[0] ## 1000 x 10
             self.renderings = payload[1] ## 1000 x 100 x 100 x 3
 
