@@ -1,6 +1,6 @@
 # Contrastive Learning for Pixel Based Goal-Reaching.
 
-## Acknowledgement:
+## Acknowledgements:
 - [Openai Baselines](https://github.com/openai/baselines)
 - Misha Laskin CURL (https://github.com/MishaLaskin/curl)
 - Tianhong Dai HER (https://github.com/TianhongDai/hindsight-experience-replay
