@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=7 taskset -c 1-10 mpirun -np 1 python -u train.py --cosine_similarity --env-name 'FetchReach-v1' --buffer-size 50000 --lr-actor 5e-4 --lr-critic 5e-4 --encoder_type 'pixel' --action_repeat 10 --frame_stack 1 --save_tb --seed 0982 --dont_detach_actor --dont_detach_critic --cuda --n-cycles=10 --n-epochs 300 2>&1 | tee pointmasstest.log
